@@ -1,0 +1,23 @@
+{
+  "name": "nodeatidweaver",
+  "version": "0.0.1",
+  "description": "Node @ IdWeaver",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matw974/nodeatidweaverbymatw.git"
+  },
+  "author": "Mathieu Wautier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matw974/nodeatidweaverbymatw/issues"
+  },
+  "homepage": "https://github.com/matw974/nodeatidweaverbymatw#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
