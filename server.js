@@ -11,8 +11,8 @@ app.engine('hbs', exphbs({
 }));
 app.set('view engine', 'hbs');
 
-app.get("/", function(req, resp, next){
-  resp.render('home');  
+app.get("/", function(req, res, next){
+  res.render('home');  
 })
 
 module.exports = app;
